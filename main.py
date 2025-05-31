@@ -102,6 +102,10 @@ class TelegramBot:
             # Create application
             self.create_application()
             
+            # Clean up any existing webhook
+            await self.application.bot.delete_webhook(drop_pending_updates=True)
+            logger.info("Cleaned up existing webhook")
+            
             # Connect calendar handler to AI handler for calendar-aware responses
             calendar_handler = get_calendar_handler()
             ai_handler = get_ai_handler()
@@ -116,7 +120,7 @@ class TelegramBot:
             logger.info("Enhanced bot initialized successfully")
             
             await self.application.start()
-            await self.application.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+            await self.application.updater.start_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
             logger.info("Enhanced bot started and polling...")
             
             # Keep running until interrupted

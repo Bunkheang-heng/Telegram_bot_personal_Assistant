@@ -1,0 +1,103 @@
+{
+    "name": "HENG Bunkheang",
+    "location": "Phnom Penh, Cambodia",
+    "email": "bunkheangheng99@gmail.com",
+    "phone": "097-355-6059",
+    "gender": "Male",
+    "education": {
+        "current": [
+            {
+                "institution": "American University of Phnom Penh",
+                "major": "Information Technology Management",
+                "level": "Bachelor"
+            },
+            {
+                "institution": "Fort Hays State University",
+                "major": "Computer Science",
+                "level": "Bachelor (Partnership Program)"
+            }
+        ]
+    },
+    "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "ReactJS",
+        "Next.js",
+        "Nest.js",
+        "Express.js",
+        "Python",
+        "Flask",
+        "Firebase",
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Tailwind CSS",
+        "Git",
+        "RESTful APIs",
+        "AI Integration",
+        "Docker",
+        "AWS",
+        "Google Cloud"
+    ],
+    "experience": [
+        {
+            "role": "Developer",
+            "organization": "Save the Children Cambodia",
+            "location": "Phnom Penh, Cambodia",
+            "date": "Jan 2024",
+            "responsibilities": [
+                "Developed a digital platform for Positive Parenting Project using ReactJS and Firebase",
+                "Built a chatbot with Python and Flask to improve engagement through Messenger",
+                "Designed frontend and backend systems"
+            ]
+        }
+    ],
+    "projects": [
+        "Khmer Dev",
+        "Kasekai",
+        "QuickResume",
+        "STEMii",
+        "SakRean",
+        "Phishing Detection System",
+        "Portfolio Website"
+    ],
+    "volunteer": [
+        {
+            "event": "Mekong Tech Festival",
+            "role": "Technical Team Member",
+            "date": "Dec 2023"
+        },
+        {
+            "event": "Rice of Love Football Event",
+            "role": "Event Organizer",
+            "date": "July 2022"
+        },
+        {
+            "event": "Earth Hour Campaign",
+            "role": "Volunteer - Food Team",
+            "date": "March 2024"
+        }
+    ],
+    "awards": [
+        "Cybersecurity Capture the Flag 2024 \u2013 Top 2 Winner",
+        "Clean Energy Hackathon 2023 \u2013 Top 3 Winner",
+        "Turing Hackathon 2023 \u2013 Top 5 Winner",
+        "Novathon by Save the Children 2023 \u2013 Top 5 Winner",
+        "Ideathon 2023 \u2013 Top 10 Winner",
+        "Unientrepreneur 2024 \u2013 Top 10 Winner",
+        "Sandbox Competition 2024 \u2013 Top 10 Winner"
+    ],
+    "interests": [
+        "Cybersecurity",
+        "AI",
+        "AgriTech",
+        "Education tech",
+        "Cloud infrastructure",
+        "Microservices"
+    ],
+    "languages": [
+        "Khmer",
+        "English"
+    ]
+}
